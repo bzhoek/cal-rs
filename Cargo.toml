@@ -1,0 +1,9 @@
+[package]
+name = "cal-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bas van der Hoek <bas@hoek.com>"]
+
+[dependencies]
+yup-oauth2 = "9.0.0"
+tokio = { version = "1", features = ["full"] }
